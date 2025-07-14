@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azzan Micheal Portfolio</title>
+  <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="fonts/fontawesome-free-6.6.0-web/css/all.min.css" rel="stylesheet">
+  <script src="js/core/jquary.js"></script>
+  <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+  <style>
+    body { background-color: #0c1a25; color: #fff; }
+    .btn-custom { background-color: #00f0ff; color: #09131c; border: none; border-radius: 5px; }
+    .btn-custom:hover { background-color: #00c4ff; }
+    .progress { background-color: #444; }
+    .progress-bar { transition: width 1s ease; }
+    .circle { width: 120px; height: 120px; border-radius: 50%; background-color: #112233; color: #fff; display: flex; align-items: center; justify-content: center; flex-direction: column; font-size: 18px; }
+    .project-card img { width: 100%; height: auto; background-color: blue;}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Azzan Micheal</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="py-5">
+  <div class="container d-flex flex-column flex-lg-row align-items-center">
+    <div class="col-lg-6 mb-4">
+      <h1>Hello, It's Me<br><span class="text-info">Azzan Micheal</span><br>And I'm a <span class="typing-animation">Web Dev</span></h1>
+      <p>I'm a web designer with 3+ years of experience. I build responsive, engaging, and modern websites.</p>
+      <div class="d-flex gap-3 mb-3">
+        <a href="https://wa.me/07081306993" class="text-light fs-4"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/skypro_fx?igsh=MWQxdWF2cnV5dTB3cg==" class="text-light fs-4"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100009229540925" class="text-light fs-4"><i class="fab fa-facebook"></i></a>
+        
+      </div>
+      <a href="#" class="btn btn-custom">More About Me</a>
+    </div>
+    <div class="col-lg-6 text-center">
+      <img src="image/code.jpeg" alt="Azzan Micheal" class="rounded img-fluid" style="max-height: 300px;">
+    </div>
+  </div>
+</section>
+
+<section class="py-5" id="about">
+  <div class="container d-flex flex-column flex-lg-row align-items-center">
+    <div class="col-lg-6">
+      <h2>About <span class="text-info">Me</span></h2>
+      <h5>Full Stack Developer!</h5>
+      <p>I’m a skilled web designer with 3+ years of experience. I focus on creating captivating, responsive designs that offer smooth user experience and strong functionality.</p>
+      <a href="#" class="btn btn-custom">More About Me</a>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-dark" id="services">
+  <div class="container text-center">
+    <h2 class="mb-5">My <span class="text-info">Services</span></h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="p-4 bg-secondary rounded">
+          <div class="fs-1">⚙️</div>
+          <h4>UI/UX Design</h4>
+          <p>Attractive and functional interfaces for web and apps.</p>
+          <a href="https://wa.me/07081306993" class="btn btn-custom mt-2">Learn More</a>
+        </div>
+      </div>
+      <div class="col-md-4 mt-4 mt-md-0">
+        <div class="p-4 bg-secondary rounded">
+          <div class="fs-1">💻</div>
+          <h4>Web Design</h4>
+          <p>Clean, responsive, and fast-loading websites tailored to your brand.</p>
+          <a href="https://wa.me/07081306993" class="btn btn-custom mt-2">Learn More</a>
+        </div>
+      </div>
+      <div class="col-md-4 mt-4 mt-md-0">
+        <div class="p-4 bg-secondary rounded">
+          <div class="fs-1">📱</div>
+          <h4>App Design</h4>
+          <p>Elegant mobile app interfaces with smooth navigation and UX.</p>
+          <a href="https://wa.me/07081306993" class="btn btn-custom mt-2">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5" id="skills">
+  <div class="container">
+    <h2 class="text-center mb-4">Technical Skills</h2>
+    <div class="mb-3">
+      <label>HTML</label>
+      <div class="progress">
+        <div class="progress-bar bg-info" style="width: 100%">100%</div>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label>CSS</label>
+      <div class="progress">
+        <div class="progress-bar bg-info" style="width: 90%">90%</div>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label>JavaScript</label>
+      <div class="progress">
+        <div class="progress-bar bg-info" style="width: 85%">85%</div>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label>PHP</label>
+      <div class="progress">
+        <div class="progress-bar bg-info" style="width: 80%">80%</div>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label>bootstrap</label>
+      <div class="progress">
+        <div class="progress-bar bg-info" style="width: 100%">100%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-dark" id="projects">
+  <div class="container text-center">
+    <h2 class="mb-5">Latest <span class="text-info">Projects</span></h2>
+    <div class="row">
+        <div class="col-md-4">
+      <div class="position-relative overflow-hidden">
+      <img src="image/connectpoint.jpeg" class="img-fluid" alt="Project Image">
+
+      <span class="d-block mt-2 text-center">VTU website</span>
+
+      <a href="https://kendikart.com/" class="position-absolute top-50 start-50 translate-middle view-btn">
+        <button class="btn btn-primary">View</button>
+      </a>
+    </div>
+</div>
+     
+   <div class="col-md-4">
+      <div class="position-relative overflow-hidden">
+      <img src="image/kendi.jpeg" class="img-fluid" alt="Project Image">
+
+      <span class="d-block mt-2 text-center">This is an e-commerce website</span>
+
+      <a href="https://kendikart.com/" class="position-absolute top-50 start-50 translate-middle view-btn">
+        <button class="btn btn-primary">View</button>
+      </a>
+    </div>
+</div>
+  <div class="col-md-4">
+      <div class="position-relative overflow-hidden">
+      <img src="image/code.jpeg" class="img-fluid" alt="Project Image">
+
+      <span class="d-block mt-2 text-center">This is an e-commerce website</span>
+
+      <a href="#" class="position-absolute top-50 start-50 translate-middle view-btn">
+        <button class="btn btn-primary">View</button>
+      </a>
+    </div>
+</div>
+</section>
+
+<section class="py-5" id="contact">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact <span class="text-info">Me</span></h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p><strong>Email:</strong> azzanmic@gmail.com</p>
+        <p><strong>Phone:</strong> 07081306993</p>
+        <div class="d-flex gap-3">
+          <a href="#" class="text-light fs-4"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-light fs-4"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-light fs-4"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-light fs-4"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <form>
+          <input class="form-control mb-3" type="text" placeholder="Enter your name">
+          <input class="form-control mb-3" type="email" placeholder="Enter your email">
+          <input class="form-control mb-3" type="text" placeholder="Enter subject">
+          <textarea class="form-control mb-3" rows="4" placeholder="Enter message"></textarea>
+          <button class="btn btn-custom w-100" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+$(document).ready(function () {
+  const words = ["Web Developer", "Web Designer", "Frontend Developer"];
+  let wordIndex = 0;
+  let charIndex = 0;
+  let typing = true;
+
+  function typeEffect() {
+    let current = words[wordIndex];
+    let displayText = typing ? current.slice(0, ++charIndex) : current.slice(0, --charIndex);
+    $(".typing-animation").text(displayText);
+
+    if (typing && charIndex === current.length) {
+      typing = false;
+      setTimeout(typeEffect, 2000);
+    } else if (!typing && charIndex === 0) {
+      typing = true;
+      wordIndex = (wordIndex + 1) % words.length;
+      setTimeout(typeEffect, 500);
+    } else {
+      setTimeout(typeEffect, typing ? 100 : 50);
+    }
+  }
+
+  typeEffect();
+});
+</script>
+
+</body>
+</html>
